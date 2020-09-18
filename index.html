@@ -22,8 +22,9 @@
             type="text"
             class="search__input"
             placeholder="Search Hotels"
+            for="Searching Hotels"
           />
-          <button class="search__button">
+          <button class="search__button" aria-label="search-button">
             <svg class="search__icon">
               <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
             </svg>
@@ -149,7 +150,9 @@
               <svg class="overview__icon-location">
                 <use xlink:href="img/sprite.svg#icon-location-pin"></use>
               </svg>
-              <button class="btn-inline">Albufeira, Portugal</button>
+              <button class="btn-inline" aria-label="location-inline-button">
+                Albufeira, Portugal
+              </button>
             </div>
 
             <div class="overview__rating">
@@ -248,14 +251,16 @@
                   <div class="review__rating">9.3</div>
                 </figcaption>
               </figure>
-              <button class="btn-inline">Show all <span>&rarr;</span></button>
+              <button class="btn-inline" aria-label="show-more-button">
+                Show all <span>&rarr;</span>
+              </button>
             </div>
           </div>
           <div class="cta">
             <h2 class="cta__book-now">
               Good news! We have 4 free rooms for your selected dates!
             </h2>
-            <button class="btn">
+            <button class="btn" aria-label="animation-button">
               <span class="btn__visible">Book now</span>
               <span class="btn__invisible"> Only 4 rooms left</span>
             </button>
