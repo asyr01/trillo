@@ -22,14 +22,13 @@
       <header class="header">
         <img src="img/logo.png" alt="trillo logo" class="logo" />
         <form action="#" class="search">
-          <label>
-            <input
-              id="search-hotels"
-              type="text"
-              class="search__input"
-              placeholder="Search Hotels"
-            />
-          </label>
+          <input
+            id="Search Hotels"
+            type="text"
+            class="search__input"
+            placeholder="Search Hotels"
+          />
+          <label for="Search Hotels"></label>
 
           <button class="search__button" aria-label="search-button">
             <svg class="search__icon">
@@ -47,6 +46,20 @@
           </div>
 
           <div class="user-nav__icon-box">
+            <div class="user-nav__messages">
+              <ul class="messages__message-list">
+                <li class="message-1"><a href="#">Message From Trillo</a></li>
+                <li class="message-2"><a href="#">Message From Zeynep</a></li>
+                <li class="message-3"><a href="#">Message From Aysu</a></li>
+                <li class="message-4"><a href="#">Message From Hülya</a></li>
+                <li class="message-5"><a href="#">Message From Mert</a></li>
+                <li class="message-6"><a href="#">Message From Hakan</a></li>
+                <li class="message-7"><a href="#">Message From Davut</a></li>
+                <li class="load-more">
+                  <a href="#">Load <span>6</span> More...</a>
+                </li>
+              </ul>
+            </div>
             <svg class="user-nav__icon">
               <use
                 xlink:href="img/sprite.svg#icon-chat
@@ -57,6 +70,32 @@
           </div>
 
           <div class="user-nav__user">
+            <div class="user-nav__user-content">
+              <a href="#">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite2.svg#icon-clapperboard"></use>
+                </svg>
+                <span>My Story</span>
+              </a>
+              <a href="#">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite2.svg#icon-user"></use>
+                </svg>
+                <span>Profile</span>
+              </a>
+              <a href="#">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite2.svg#icon-cart"></use>
+                </svg>
+                <span>Cart</span>
+              </a>
+              <a href="#">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite2.svg#icon-log-out"></use>
+                </svg>
+                <span>Log Out</span>
+              </a>
+            </div>
             <img
               src="img/user.jpg"
               alt="User photo"
@@ -103,8 +142,7 @@
             </li>
           </ul>
           <div class="legal">
-            &copy; 2020 by trillo. All rights reserved. Coded Along by Ali
-            Sayar.
+            &copy; 2020 by trillo. All rights reserved. Coded by Ali Sayar.
           </div>
         </nav>
 
